@@ -40,18 +40,18 @@ router.post("/text", async (req, res) => {
         // messages that the bot sends and then provide them to the bot in the next request.
       ],
     });
-
-    // await axios.post(
-    //   `https://api.chatengine.io/chats/${activeChatId}/messages/`,
-    //   { text: response.data.choices[0].message.content },
-    //   {
-    //     headers: {
-    //       "Project-ID": process.env.PROJECT_ID,
-    //       "User-Name": process.env.BOT_USER_NAME,
-    //       "User-Secret": process.env.BOT_USER_SECRET,
-    //     },
-    //   }
-    // );
+ console.log(activeChatId);
+    await axios.post(
+      `https://api.chatengine.io/chats/${activeChatId}/messages/`,
+      { text: response.data.choices[0].message.content },
+      {
+        headers: {
+          "Project-ID": process.env.PROJECT_ID,
+          "User-Name": process.env.BOT_USER_NAME,
+          "User-Secret": process.env.BOT_USER_SECRET,
+        },
+      }
+    );
 
     res.status(200).json({ text: response.data.choices[0].message.content });
   } catch (error) {
