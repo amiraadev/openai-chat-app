@@ -41,6 +41,8 @@ router.post("/text", async (req, res) => {
       ],
     });
 //  console.log(activeChatId);
+
+
     await axios.post(
       `https://api.chatengine.io/chats/${activeChatId}/messages/`,
       { text: response.data.choices[0].message.content },
@@ -52,7 +54,7 @@ router.post("/text", async (req, res) => {
         },
       }
     );
-
+ 
     res.status(200).json({ text: response.data.choices[0].message.content });
   } catch (error) {
     console.error("error", error.response.data.error);
