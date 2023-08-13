@@ -40,7 +40,7 @@ router.post("/text", async (req, res) => {
         // messages that the bot sends and then provide them to the bot in the next request.
       ],
     });
- console.log(activeChatId);
+//  console.log(activeChatId);
     await axios.post(
       `https://api.chatengine.io/chats/${activeChatId}/messages/`,
       { text: response.data.choices[0].message.content },
