@@ -1,8 +1,16 @@
 # ChatApp with OpenAI Integration 👥🤖
 
+Introducing an innovative dynamic chat application that facilitates engaging conversations between subscribed users and intelligent AI assistants powered by OpenAI.
+
+Seamlessly transitioning between interactions with real users and AI counterparts is made effortless by leveraging the backend capabilities of Node.js and Express.
+
+ This cutting-edge platform, skillfully crafted with React, ChatEngine, and OpenAI, is further empowered by the lightning-fast performance of Vite ⚡️.
+
+# ChatApp with OpenAI Integration 👥🤖
+
 ![ChatApp Screenshot](screenshots/ai-chat.png)
 
-A dynamic chat application that lets you have conversations with other subscribed users and OpenAI-powered AI assistants. Seamlessly switch between conversations with real users and AI assistants based on the chat's name. Built using React, ChatEngine, and OpenAI, and supercharged with Vite.
+
 
 ## Features
 
