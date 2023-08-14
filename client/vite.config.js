@@ -8,5 +8,8 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: path.resolve(__dirname, "src") }],
   },
+  build: {
+    chunkSizeWarningLimit: 1000, // Set to a value that suits your application
+  },
   base:"/openai-chat-app/"
 });
