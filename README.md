@@ -6,7 +6,7 @@ Seamlessly transitioning between interactions with real users and AI counterpart
 
  This cutting-edge platform, skillfully crafted with React, ChatEngine, and OpenAI, is further empowered by the lightning-fast performance of Vite ⚡️.
 
-# ChatApp with OpenAI Integration 👥🤖
+# Live demo
 
 ![ChatApp Screenshot](screenshots/ai-chat.png)
 
@@ -24,7 +24,7 @@ Seamlessly transitioning between interactions with real users and AI counterpart
 
 ## Usage
 
-1. **Log in or Sign Up**: Get started by logging in to your account or signing up if you're new to ChatApp.
+1. **Log in or Sign Up**: Get started by logging in to your account or signing up if you're new to ai-chat-app.
 
 2. **Start a New Chat**: Create a new chat by giving it a name that indicates your preferred chat type. For example:
    - To chat with OpenAI: Start the chat name with "AiChat_" (e.g., "AiChat_MyOpenAIChat").
