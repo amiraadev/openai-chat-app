@@ -10,6 +10,7 @@ export default defineConfig({
   },
   build: {
     chunkSizeWarningLimit: 1000, // Set to a value that suits your application
+    outDir: 'dist', // or 'build'
   },
   base:"/openai-chat-app/"
 });
