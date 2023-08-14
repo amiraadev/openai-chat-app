@@ -15,6 +15,7 @@ dotenv.config();
 const router = express.Router();
 
 router.post("/text", async (req, res) => {
+  console.log("yeyyyyy");
   try {
     const { text, activeChatId } = req.body;
 

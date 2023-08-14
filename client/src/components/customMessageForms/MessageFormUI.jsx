@@ -14,6 +14,7 @@ const MessageFormUI = ({
   appendText,
   handleKeyDown,
 }) => {
+
   const [preview, setPreview] = useState("");
 
   return (
