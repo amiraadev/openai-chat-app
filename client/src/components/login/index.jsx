@@ -14,6 +14,8 @@ const Login = ({ setUser, setSecret }) => {
 
   const handleRegister = () => {
     triggerSignUp({ username, password });
+    setUsername("");
+    setPassword("");
   };
 
   useEffect(() => {

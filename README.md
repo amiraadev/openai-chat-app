@@ -19,6 +19,7 @@ Seamlessly transitioning between interactions with real users and AI counterpart
   - To chat with OpenAI: Start the chat name with "AiChat_".
   - For code assistance: Begin the chat name with "AiCode_".
   - For general AI assistance: Use "AiAssist_" at the start of the chat name.
+- In the members field add the member AI_bot_ALEXA to the chat
 - Quick and dynamic conversation switching.
 - Smooth and fast UI powered by Vite's blazing speed.
 
